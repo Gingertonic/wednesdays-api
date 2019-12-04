@@ -2,7 +2,7 @@ class Song < ApplicationRecord
 
     def prepare_for_json
         @output = {
-            data: {title: title, writers: writers},
+            data: {id: id, title: title, writers: writers},
             structure: [],
             sections: {},
             favourite: !!favourite
