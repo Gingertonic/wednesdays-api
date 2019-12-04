@@ -4,7 +4,8 @@ class Song < ApplicationRecord
         @output = {
             data: {title: title, writers: writers},
             structure: [],
-            sections: {}
+            sections: {},
+            favourite: !!favourite
         }
         @current_section =  nil
         startConvert
