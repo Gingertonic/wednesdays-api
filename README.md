@@ -1,5 +1,6 @@
 # Ukulele Wednesdays - API
 ![](http://forthebadge.com/images/badges/made-with-ruby.svg)
+![](https://forthebadge.com/images/badges/built-with-love.svg)
 
 An API for all your ukulele-chart-in-json needs!
 
@@ -21,8 +22,8 @@ An API for all your ukulele-chart-in-json needs!
 - `rails c`
 
 ## Access 
-    + `http://localhost:3001/<endpoint>`
-    + interactive frontend: see [Wednesdays React Client](https://github.com/Gingertonic/wednesdays-frontend "Wednesdays React Client")
+- `http://localhost:3001/<endpoint>`
+- interactive frontend: see [Wednesdays React Client](https://github.com/Gingertonic/wednesdays-frontend "Wednesdays React Client")
 
 ## Endpoints
 ### get essential data for all songs
