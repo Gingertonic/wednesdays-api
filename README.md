@@ -20,6 +20,10 @@ An API for all your ukulele-chart-in-json needs!
 ## Console
 - `rails c`
 
+## Access 
+    + `http://localhost:3001/<endpoint>`
+    + interactive frontend: see [Wednesdays React Client](https://github.com/Gingertonic/wednesdays-frontend "Wednesdays React Client")
+
 ## Endpoints
 ### get essential data for all songs
 - `GET` `/songs`
