@@ -1,5 +1,4 @@
-FAITH = "
-sec!-intro
+FAITH = "sec!-intro
 (C)
 sec!-verseOne
 Well I guess it would be (C)nice… if I could touch your body
@@ -39,8 +38,7 @@ sec!-hook
 Because I gotta have (C)faith, I gotta have faith
 Because I gotta have faith faith faith, I gotta have faith, faith, faith"
 
-FORGET_YOU = "
-sec!-intro
+FORGET_YOU = "sec!-intro
 (C) (D7) (F) (C)
 sec!-chorus
 I see you (C)driving round town with the (D7)girl I love

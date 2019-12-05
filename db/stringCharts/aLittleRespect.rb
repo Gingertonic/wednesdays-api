@@ -49,8 +49,7 @@ Oh baby (F)please… give a little res(Em)pect (F)to-(G)-oo (C)soul
 I hear you (Am)calling
 Oh baby (F)please… give a little res(Em)pect (F)to-(G)-oo (C)me-e-e"
 
-ACCIDENTALLY = "
-sec!-intro
+ACCIDENTALLY = "sec!-intro
 (G)
 sec!-verseOne
 (G) So she said what’s the (C)problem baby
