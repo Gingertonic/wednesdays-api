@@ -4,9 +4,11 @@
 An API for all your ukulele-chart-in-json needs!
 
 ## Installation
-- clone down this repo
-- cd into wednesdays-api
-- bundle install 
+- clone down repo
+    + SSH: `git clone git@github.com:Gingertonic/wednesdays-api.git`
+    + HTTPS: `git clone https://github.com/Gingertonic/wednesdays-api.git`
+- `cd wednesdays-api`
+- `bundle install`
 
 ## Database setup
 - `rails db:migrate`
@@ -20,8 +22,7 @@ An API for all your ukulele-chart-in-json needs!
 
 ## Endpoints
 ### get essential data for all songs
-- `GET`
-- `/songs`
+- `GET` `/songs`
 - responds with array of song objects containing song id, title, artist and 'favourited' status as:
 ```
 [
@@ -48,9 +49,8 @@ An API for all your ukulele-chart-in-json needs!
 - `fullText`, `created_at` and `updated_at` to be removed from response in future update
 
 ### get song chart 
-- `GET`
-- `/songs/:songId`
-- gives complete song data as:
+- `GET` `/songs/:songId`
+- responds with complete song data as:
 ```
 {
     id: 4, 
@@ -74,7 +74,9 @@ An API for all your ukulele-chart-in-json needs!
 ```
 
 ### update song
-- `PATCH`
-- `/songs/:songId`
+- `PATCH` `/songs/:songId`
 - updates song in database
-- responds with updated song in complete form (as `get songs/:songId`)
+- responds with updated song in complete form (see `get songs/:songId`)
+
+## Contribution
+Always appreciated!
