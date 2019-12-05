@@ -82,6 +82,17 @@ An API for all your ukulele-chart-in-json needs!
 - `PATCH` `/songs/:songId`
 - updates song in database
 - responds with updated song in complete form (see `get songs/:songId`)
+- example request
+```
+fetch(`http://localhost:3001/songs/${songId}`, {
+    method: 'PATCH',
+    body: JSON.stringify({favourite: true}),
+    headers: {
+        "Content-Type": 'application/json',
+        "Accept": 'application/json'
+    }
+})
+```
 
 ## Contribution
 Always appreciated!
