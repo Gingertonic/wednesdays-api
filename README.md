@@ -30,26 +30,26 @@ An API for all your ukulele-chart-in-json needs!
 - `GET` `/songs`
 - responds with array of song objects containing song id, title, artist and 'favourited' status as:
 ```
-[
-    {
-        id: 1,
-        title: "A Little Respect",
-        writers: "Erasure",
-        favourite: true,
-        fullText:"<song in plain text>",
-        created_at: "2019-12-05T05:44:36.137Z",
-        updated_at: "2019-12-05T05:44:36.137Z"
-    },
-    {
-        id: 2,
-        title: "Accidentally in Love",
-        writers: "Counting Crows",
-        favourite: false,
-        fullText:"<song in plain text>",
-        created_at: "2019-12-05T05:44:36.137Z",
-        updated_at: "2019-12-05T05:44:36.137Z"
-    }
-]
+    [
+        {
+            id: 1,
+            title: "A Little Respect",
+            writers: "Erasure",
+            favourite: true,
+            fullText:"<song in plain text>",
+            created_at: "2019-12-05T05:44:36.137Z",
+            updated_at: "2019-12-05T05:44:36.137Z"
+        },
+        {
+            id: 2,
+            title: "Accidentally in Love",
+            writers: "Counting Crows",
+            favourite: false,
+            fullText:"<song in plain text>",
+            created_at: "2019-12-05T05:44:36.137Z",
+            updated_at: "2019-12-05T05:44:36.137Z"
+        }
+    ]
 ```
 - `fullText`, `created_at` and `updated_at` to be removed from response in future update
 
@@ -57,11 +57,12 @@ An API for all your ukulele-chart-in-json needs!
 - `GET` `/songs/:songId`
 - responds with complete song data as:
 ```
-{
-    id: 4, 
-    "data":{
-        "title":"Blue Moon",
-        "writers":"Rogers and Hart"},
+    {
+        id: 4, 
+        "data":{
+            "title":"Blue Moon",
+            "writers":"Rogers and Hart"
+        },
         "structure":["intro","verseOne","verseTwo","chorus","verseThree","chorus"],
         "sections":{
             "intro":[
@@ -82,16 +83,16 @@ An API for all your ukulele-chart-in-json needs!
 - `PATCH` `/songs/:songId`
 - updates song in database
 - responds with updated song in complete form (see `get songs/:songId`)
-- example request
+- example request:
 ```
-fetch(`http://localhost:3001/songs/${songId}`, {
-    method: 'PATCH',
-    body: JSON.stringify({favourite: true}),
-    headers: {
-        "Content-Type": 'application/json',
-        "Accept": 'application/json'
-    }
-})
+    fetch(`http://localhost:3001/songs/${songId}`, {
+        method: 'PATCH',
+        body: JSON.stringify({favourite: true}),
+        headers: {
+            "Content-Type": 'application/json',
+            "Accept": 'application/json'
+        }
+    })
 ```
 
 ## Contribution
