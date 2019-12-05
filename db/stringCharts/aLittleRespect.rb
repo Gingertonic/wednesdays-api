@@ -54,10 +54,10 @@ ACCIDENTALLY = "sec!-intro
 sec!-verseOne
 (G) So she said what’s the (C)problem baby
 (G) What’s the problem I don't (C)know, well maybe
-I’m in (Em)love (love)… think about it (A)everytime I think about it
+I’m in (Em)love -love-… think about it (A)everytime I think about it
 (C)Can’t stop thinking ‘bout it (G) how much longer will it
 (C)Take to cure this… (G) just to cure it cos
-I (C)can’t ignore it if it’s (Em)love (love)
+I (C)can’t ignore it if it’s (Em)love -love-
 Makes me wanna (A)turn around and face me but I (D)don't know nothing bout
 (C)love… oh-oh
 sec!-chorus
@@ -98,8 +98,7 @@ sec!-chorus
 (G)Come on (Am)come on… just (C)get yourself in(D)side her
 (Em)Love... (D) I'm in love (G – single strum)"
 
-ALL_THAT_SHE_WANTS = "
-sec!-intro – reggae strumming
+ALL_THAT_SHE_WANTS = "sec!-intro – reggae strumming
 (Am) (Am) (G) (Dm)
 (Am) She leads a (Am)lonely life (G) (Dm)
 (Am) She leads a (Am)lonely life (G) (Dm)
@@ -110,7 +109,7 @@ just be(D)gu-u-un
 She (A)opened up her eyes and thought… (E) oh what a morning
 (A) It’s not a day for work-ah… it’s a (D)day for catching (Dm)tan
 Just (A)lying on a (E)beach and having (D)fun
-She’s (E – single strum)going to get you
+She’s (E)-single strum- going to get you
 sec!-chorus
 (Am)All that she wants… is another (G)baby… she’s (Dm)gone tomorrow
 boy
@@ -125,7 +124,7 @@ The (Am)gentle voice that talks to you… (G) won’t talk for(D)ever
 (Am) It’s the night for passion… but the (D)morning means
 good(Dm)bye
 Be(A)ware of what is (E)flashing in her (D)eyes
-She’s (E – single strum)going to getcha
+She’s (E)-single strum- going to getcha
 sec!-chorus
 (Am)All that she wants… is another (G)baby… she’s (Dm)gone tomorrow
 boy

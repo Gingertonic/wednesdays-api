@@ -13,7 +13,9 @@ class Song < ApplicationRecord
     end
 
     def startConvert
-        fullText.split("\n").each do |line|
+        completeText = fullText + ending
+        completeText.split("\n").each do |line|
+            # binding.pry
             if line.include?("sec!-")
                 @current_section = line.chomp.gsub("sec!-", "")
                 @output[:structure] << @current_section
@@ -39,6 +41,11 @@ class Song < ApplicationRecord
             end 
         end
         @output[:sections][@current_section.to_sym] << obj_line
+    end 
+
+    def ending 
+        "sec!-end
+        NEXT SONG!"
     end 
 
 end

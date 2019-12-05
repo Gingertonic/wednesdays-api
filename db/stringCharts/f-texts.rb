@@ -16,7 +16,7 @@ sec!-verseTwo
 Ba(C)by… I know you’re asking me to stay
 Say please, please, (F)please don’t go away
 You say I’m giving you the (C)blues
-Maybe (huh)… you mean every word you say
+Maybe -huh-… you mean every word you say
 Can’t help but (F)think of yesterday
 And a lover who (C)tied me down to the lover boy rules
 sec!-chorus
